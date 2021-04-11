@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+*{
+    margin: 0;
+}
+
+nav {
+    background: gray;
+    display: grid;
+    grid-template-areas: 'logo options search';
+    grid-template-columns: 1fr 4fr 1.5fr;
+    margin: auto;
+}
+
+.logo {
+    width: 150px;
+    padding-top: 15px;
+    margin-left: 29%;
+}
+
+ul {
+    margin-top: 2%;
+    margin-left: 0%;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    list-style-type: none;
+    margin-top: 10%;
+    padding: 0px;
+    margin-left: 1%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    padding: 13px;
+    margin-top: 10%;
+    font-weight: bold;
+    font-size: 19px;
+    border-radius: 7px;
+    word-spacing: 1px;
+}
+
+a:hover {
+    background: rgb(75, 74, 74);
+}
+
+.search {
+    margin-top: 4%;
+}
+
+input {
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 250px;
+    height: 35px;
+    margin-left: 1%;
+    background: url(search-13-16.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.picture {
+    -o-object-fit: cover;
+    object-fit: cover;
+    display: inline-block;
+    transform: scale(1.2) rotateZ(calc(11 * 1deg));
+    float: left;
+    position: relative;
+    margin-top: 1%;
+}
+
+body {
+    background: rgb(44, 44, 44);
+}
+
+.articles {
+    display: inline-block;
+    background: rgb(44, 44, 44);
+    float: left;
+    padding: 28px;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 5%;
+}
+
+.top-left {
+    margin-bottom: 13%;
+    margin-left: 14%;
+    margin-top: 2%
+}
+
+.newsletter {
+    background: rgb(97, 95, 96);
+    display: inline-block;
+    width: 862px;
+    height: 580px;
+    justify-content: center;
+}
+
+.fox {
+    margin-left: 25%;
+    padding: 25px 25px 0px 25px;
+}
+
+.email {
+    font-family: 'Nunito', sans-serif;
+    margin-left: 38%;
+    background: white;
+    display: inline-block;
+    padding: 3px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.guides {
+    background: rgb(173, 173, 173);
+    text-align: center;
+    color: rgb(19, 16, 16);
+    padding: 10px;
+    height: 300px;
+}
+
+.pi {
+    margin-top: 5%;
+}
+
+
+.posts {
+    
+    background: rgb(83, 79, 79);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.box {
+    padding: 10px;
+    margin-left: 15%;
+    margin-top: 10%;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    text-align: center;
+    background: rgb(63, 61, 63);
+}
+
+.four {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid {
+    text-align: left;
+    height: 50px;
+    margin-top: 5%;
+}
+
+
+.foxtwo {
+    margin-left: 34%;
+    padding: 25px 25px 0px 25px;
+}
+
+
+footer {
+    background: rgb(44, 44, 44);
+    height: 200px;
+}
